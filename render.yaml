@@ -2,7 +2,7 @@ services:
   - type: web
     name: weather-app
     env: node
-    buildCommand: npm install && npm run build
+    buildCommand: npm install && cd weather-app && npm run build
     startCommand: npm start
     envVars:
       - key: VITE_WEATHER_API_KEY
