@@ -3,8 +3,8 @@ services:
     name: weather-app
     env: node
     rootDir: weather-app
-    buildCommand: yarn install && yarn build
-    startCommand: cd weather-app && yarn start
+    buildCommand: npm install && npm run build
+    startCommand: cd weather-app && npm start
     envVars:
       - key: VITE_WEATHER_API_KEY
         sync: false
