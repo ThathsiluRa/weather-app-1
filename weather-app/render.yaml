@@ -2,6 +2,7 @@ services:
   - type: web
     name: weather-app
     env: node
+    rootDir: weather-app
     buildCommand: npm install && npm run build
     startCommand: npm start
     envVars:
