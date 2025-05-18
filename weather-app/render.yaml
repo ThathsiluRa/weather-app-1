@@ -3,7 +3,7 @@ services:
     name: weather-app
     env: node
     buildCommand: npm install && npm run build
-    startCommand: npm run preview
+    startCommand: npm start
     envVars:
       - key: VITE_WEATHER_API_KEY
         sync: false
