@@ -1,0 +1,11 @@
+{
+  "name": "weather-app-root",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "install": "cd weather-app && npm install",
+    "build": "cd weather-app && npm run build",
+    "start": "cd weather-app && npm start"
+  }
+} 
